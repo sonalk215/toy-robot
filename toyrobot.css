@@ -1,0 +1,44 @@
+.d__parent {
+    padding: 1%;
+    width: 30%;
+    text-align: center;
+    height: 500px;
+    border: 2px solid green;
+    background-color: #bf8040;
+    margin: auto;
+    box-shadow: -16px 13px 5px -2px rgba(209,165,209,0.47);
+    color: white;
+}
+
+.d__heading {
+    margin: 0;
+    margin-bottom: 10%;
+}
+  
+.toastrMessage {
+    display: none;
+    position: relative;
+    z-index: 1;
+    padding: 5px;
+    top: 5%;
+    width: 90%;
+    margin: auto;
+    height: 25px;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 14px;
+    border-radius: 2%;
+}
+.errorMsg {
+    display: block;
+    color: #f2f2f2;
+    background-color: #b30000;
+}
+  
+.successMsg {
+    display: block;
+    color: #f2f2f2;
+    background-color: rgba(77, 125, 38, 0.82);
+}
